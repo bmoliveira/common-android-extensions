@@ -22,8 +22,6 @@ android {
 }
 
 dependencies {
-  implementation "org.jetbrains.anko:anko:$ankoVersion"
-  implementation "org.jetbrains.anko:anko-appcompat-v7:$ankoVersion"
   implementation "com.android.support:appcompat-v7:$supportVersion"
 }
 

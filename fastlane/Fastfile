@@ -8,16 +8,10 @@ platform :android do
     gradle(task: "test")
   end
 
-  desc "Upload Max width layouts"
+  desc "Upload Android extensions"
   lane :release_android_extensions do
     gradle(task: ":android:install")
     gradle(task: ":android:bintrayUpload")
-  end
-
-  desc "Upload Anko Extensions"
-  lane :release_anko_extensions do
-    gradle(task: ":anko:install")
-    gradle(task: ":anko:bintrayUpload")
   end
 
   desc "Upload Rx Extensions"
@@ -29,7 +23,6 @@ platform :android do
   desc "Deploy all libs to maven"
   lane :deploy do
     release_android_extensions
-    release_anko_extensions
     release_rx_extensions
   end
 end

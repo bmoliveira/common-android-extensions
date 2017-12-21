@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-extensions.iml" filepath="$PROJECT_DIR$/android-extensions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/anko/anko.iml" filepath="$PROJECT_DIR$/anko/anko.iml" />
       <module fileurl="file://$PROJECT_DIR$/example-app/app.iml" filepath="$PROJECT_DIR$/example-app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-app/example-app.iml" filepath="$PROJECT_DIR$/example-app/example-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/rx/rx.iml" filepath="$PROJECT_DIR$/rx/rx.iml" />
     </modules>
   </component>

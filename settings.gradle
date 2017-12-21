@@ -1,1 +1,1 @@
-include ':example-app', ':android', ':rx', ':anko'
+include ':example-app', ':android', ':rx'
