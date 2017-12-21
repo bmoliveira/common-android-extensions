@@ -1,0 +1,35 @@
+fastlane_version "2.68.2"
+
+default_platform :android
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Upload Max width layouts"
+  lane :release_android_extensions do
+    gradle(task: ":android:install")
+    gradle(task: ":android:bintrayUpload")
+  end
+
+  desc "Upload Anko Extensions"
+  lane :release_anko_extensions do
+    gradle(task: ":anko:install")
+    gradle(task: ":anko:bintrayUpload")
+  end
+
+  desc "Upload Rx Extensions"
+  lane :release_rx_extensions do
+    gradle(task: ":rx:install")
+    gradle(task: ":rx:bintrayUpload")
+  end
+
+  desc "Deploy all libs to maven"
+  lane :deploy do
+    release_android_extensions
+    release_anko_extensions
+    release_rx_extensions
+  end
+end
