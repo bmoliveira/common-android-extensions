@@ -27,12 +27,7 @@ Runs all the tests
 ```
 fastlane android release_android_extensions
 ```
-Upload Max width layouts
-### android release_anko_extensions
-```
-fastlane android release_anko_extensions
-```
-Upload Anko Extensions
+Upload Android extensions
 ### android release_rx_extensions
 ```
 fastlane android release_rx_extensions
