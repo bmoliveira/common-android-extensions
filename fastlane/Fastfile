@@ -9,20 +9,22 @@ platform :android do
   end
 
   desc "Upload Android extensions"
-  lane :release_android_extensions do
-    gradle(task: ":android:install")
-    gradle(task: ":android:bintrayUpload")
+  lane :release_android_extension do
+    gradle(task: "clean")
+    gradle(task: ":android-extension:install")
+    gradle(task: ":android-extension:bintrayUpload")
   end
 
   desc "Upload Rx Extensions"
-  lane :release_rx_extensions do
-    gradle(task: ":rx:install")
-    gradle(task: ":rx:bintrayUpload")
+  lane :release_rx_extension do
+    gradle(task: "clean")
+    gradle(task: ":rx-extension:install")
+    gradle(task: ":rx-extension:bintrayUpload")
   end
 
   desc "Deploy all libs to maven"
   lane :deploy do
-    release_android_extensions
-    release_rx_extensions
+    release_android_extension
+    release_rx_extension
   end
 end

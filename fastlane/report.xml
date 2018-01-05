@@ -5,42 +5,52 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.013814">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.010039">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.002093">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.004233">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: Switch to android release_android_extensions lane" time="0.001035">
+      <testcase classname="fastlane.lanes" name="2: Switch to android release_android_extension lane" time="0.001567">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: gradle" time="14.251453">
+      <testcase classname="fastlane.lanes" name="3: gradle" time="1.49577">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: gradle" time="6.604153">
+      <testcase classname="fastlane.lanes" name="4: gradle" time="3.292116">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: Switch to android release_rx_extensions lane" time="0.001466">
+      <testcase classname="fastlane.lanes" name="5: gradle" time="5.43485">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: gradle" time="4.65999">
+      <testcase classname="fastlane.lanes" name="6: Switch to android release_rx_extension lane" time="0.001475">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: gradle" time="6.431206">
+      <testcase classname="fastlane.lanes" name="7: gradle" time="1.2748">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: gradle" time="3.78802">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: gradle" time="4.990363">
         
       </testcase>
     

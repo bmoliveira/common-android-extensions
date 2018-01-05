@@ -23,14 +23,14 @@ xcode-select --install
 fastlane android test
 ```
 Runs all the tests
-### android release_android_extensions
+### android release_android_extension
 ```
-fastlane android release_android_extensions
+fastlane android release_android_extension
 ```
 Upload Android extensions
-### android release_rx_extensions
+### android release_rx_extension
 ```
-fastlane android release_rx_extensions
+fastlane android release_rx_extension
 ```
 Upload Rx Extensions
 ### android deploy

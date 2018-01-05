@@ -10,10 +10,6 @@ buildscript {
   ext.rxKotlinVersion = '2.1.0'
   ext.rxAndroidVersion = '2.0.1'
 
-  ext.libVersion = '0.0.3'
-  ext.groupId = 'com.broliveira'
-  ext.mavenRepo = 'maven'
-
   repositories {
     google()
     jcenter()

@@ -1,1 +1,1 @@
-include ':example-app', ':android', ':rx'
+include ':example-app', ':android-extension', ':rx-extension'
